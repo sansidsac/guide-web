@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    font-family: fantasy;
+}
+header{
+    background-color: #41414194;
+    padding: 10px;
+    border:20px dashed #414141;
+}
+h1{
+    text-align: center;
+    color: #df2929;
+    letter-spacing: 5px;
+    font-size: 70px;
+}
+nav{
+    background-color: black;
+    border-bottom:20px dashed #414141;
+    padding-top: 20px;
+    border-bottom-width: 20px;
+    padding-bottom: 80px;
+}
+.one{
+    position: absolute;
+}
+.one li{
+    float: left;
+    margin-right: 60px;
+    list-style-type: none;
+    font-size: 30px;
+    color: #414141;
+    cursor: pointer;
+}
+.one li:hover{
+    color: #df2929;
+}
+.abc{
+    font-size: 20px;
+    color: black;
+    background-color: #df2929;
+    text-align: justify;
+    padding: 30px;
+    margin: 50px 300px 50px 300px;
+    border-radius: 5px;
+}
